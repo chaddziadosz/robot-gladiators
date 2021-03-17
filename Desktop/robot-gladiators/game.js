@@ -26,6 +26,10 @@ console.log(enemyNames.length)
 
 // fight function
 var fight = function(enemyName) {
+  // repeat and execute as long as the enemy-robot is alive 
+  while(enemyHealth > 0) {
+    // place fight function code block here . . .
+  }
   
   // Alert players that they are starting the round
   window.alert("Welcome to Robot Gladiators!");
